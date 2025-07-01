@@ -1,0 +1,726 @@
+{
+	"id": "4989a6bc-22fc-447c-8e86-05f26d7fb8d6",
+	"name": "rGuest Pay Agent",
+	"timestamp": "2025-06-12T14:28:42.346Z",
+	"collection_id": "45171815-e86ffb0b-d3aa-4935-b5ef-a77da827f2a2",
+	"folder_id": 0,
+	"environment_id": "45171815-0d9f1527-3ef4-4b6c-9335-382b1227d33f",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "error",
+	"startedAt": "2025-06-12T14:26:27.592Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "c7f6bb8e-897d-41d1-ba04-6e60cbfdb2b6",
+			"name": "pre-request and post-request (tests) scripts [DO NOT DELETE]",
+			"url": "http://localhost:8502/v1.5/transaction/sale/device/f7da845e-b9cf-4e24-b3f9-d93e00000000",
+			"time": 845,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				845
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "82146875-13c5-4c0b-8534-b30c2272c600",
+			"name": "/v1.5/health",
+			"url": "http://localhost:8502/v1.5/health",
+			"time": 120,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				120
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6b2e1933-9f01-4c2f-b7ad-c8518f8b0336",
+			"name": "/v1.5/health/detail",
+			"url": "http://localhost:8502/v1.5/health/detail",
+			"time": 75,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				75
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e03287eb-fad0-4152-a794-a3d6ec111ba7",
+			"name": "/v1.5/device/list",
+			"url": "http://localhost:8502/v1.5/device/list",
+			"time": 158,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				158
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3d92f716-deab-460b-b829-8735975631ff",
+			"name": "/v1.5/device/{deviceGuid}",
+			"url": "http://localhost:8502/v1.5/device/f7da845e-b9cf-4e24-b3f9-d93e00000000",
+			"time": 191,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				191
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "38fc1c50-9cd3-43a6-be6e-c63a853bf192",
+			"name": "/v1.5/device/{deviceGuid}/detach",
+			"url": "http://localhost:8502/v1.5/device/f7da845e-b9cf-4e24-b3f9-d93e00000000/detach",
+			"time": 211,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				211
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ba824d8b-bd3d-42d7-a08b-7028aa5cd711",
+			"name": "/v1.5/device/{deviceGuid}/lane/state/open",
+			"url": "http://localhost:8502/v1.5/device/f7da845e-b9cf-4e24-b3f9-d93e00000000/lane/state/open",
+			"time": 47,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				47
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "de1d5b21-e93f-4caf-bdb6-b00751943869",
+			"name": "/v1.5/device/{deviceGuid}/lane/state/closed",
+			"url": "http://localhost:8502/v1.5/device/f7da845e-b9cf-4e24-b3f9-d93e00000000/lane/state/closed",
+			"time": 28,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				28
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "956463a5-500d-4313-ba05-ebaf6e928f97",
+			"name": "/v1.5/device/{deviceGuid}/standby",
+			"url": "http://localhost:8502/v1.5/device/f7da845e-b9cf-4e24-b3f9-d93e00000000/standby",
+			"time": 32,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				32
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "dd4c6f4c-82c0-466d-b500-7f0c4074e252",
+			"name": "/v1.5/ondemand/cardcapture/device/{deviceGuid}",
+			"url": "http://localhost:8502/v1.5/ondemand/cardcapture/device/f7da845e-b9cf-4e24-b3f9-d93e00000000",
+			"time": 84,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				84
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b839db4c-3420-4fd2-ba9e-6a7e6e5d4a5b",
+			"name": "/v1.5/ondemand/cardcapture/device/{deviceGuid} [amount]",
+			"url": "http://localhost:8502/v1.5/ondemand/cardcapture/device/f7da845e-b9cf-4e24-b3f9-d93e00000000",
+			"time": 38,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				38
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a8dd2f9b-09b6-486d-b5e5-ff8f8a54db53",
+			"name": "/v1.5/ondemand/cardcapture/device/{deviceGuid}",
+			"url": "http://localhost:8502/v1.5/ondemand/cardcapture/device/f7da845e-b9cf-4e24-b3f9-d93e00000000",
+			"time": 35,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				35
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "66364882-694c-4b78-9335-0d968f8fe956",
+			"name": "/v1.5/operation/logcapture",
+			"url": "http://localhost:8502/v1.5/operation/logcapture",
+			"time": 380,
+			"responseCode": {
+				"code": 502,
+				"name": "Bad Gateway"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				380
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "de48b82d-17b8-48f0-9f35-b8ca68e09513",
+			"name": "/v1.5/ondemand/tipcapture/device/{deviceGuid} [seed]",
+			"url": "http://localhost:8502/v1.5/ondemand/tipcapture/device/f7da845e-b9cf-4e24-b3f9-d93e00000000",
+			"time": 535,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				535
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "91fe91cd-5842-4861-b936-0cb22ea1cdc6",
+			"name": "/v1.5/ondemand/tipcapture/device/{deviceGuid} [amount preset]",
+			"url": "http://localhost:8502/v1.5/ondemand/tipcapture/device/f7da845e-b9cf-4e24-b3f9-d93e00000000",
+			"time": 37,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				37
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5ee65003-ad36-4252-88db-8707bcae2c8a",
+			"name": "/v1.5/ondemand/tipcapture/device/{deviceGuid} [percent preset]",
+			"url": "http://localhost:8502/v1.5/ondemand/tipcapture/device/f7da845e-b9cf-4e24-b3f9-d93e00000000",
+			"time": 21,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				21
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bf163da2-5892-4a55-9096-475afe8ae3fc",
+			"name": "/v1.5/ondemand/tipcapture/device/{deviceGuid}",
+			"url": "http://localhost:8502/v1.5/ondemand/tipcapture/device/f7da845e-b9cf-4e24-b3f9-d93e00000000",
+			"time": 60,
+			"responseCode": {
+				"code": 202,
+				"name": "Accepted"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				60
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "11267762-a839-4ee9-a658-a5a4a895aed5",
+			"name": "/v1.5/ondemand/signaturecapture/device/{deviceGuid}",
+			"url": "http://localhost:8502/v1.5/ondemand/signaturecapture/device/f7da845e-b9cf-4e24-b3f9-d93e00000000",
+			"time": 1854,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1854
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bc00a036-986a-46e0-93f8-569fe755d0ab",
+			"name": "/v1.5/ondemand/signaturecapture/device/{deviceGuid} [amount]",
+			"url": "http://localhost:8502/v1.5/ondemand/signaturecapture/device/f7da845e-b9cf-4e24-b3f9-d93e00000000",
+			"time": 16700,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				16700
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e9179f00-5674-40fa-9cfd-af0089b73dd5",
+			"name": "/v1.5/ondemand/signaturecapture/device/{deviceGuid}",
+			"url": "http://localhost:8502/v1.5/ondemand/signaturecapture/device/f7da845e-b9cf-4e24-b3f9-d93e00000000",
+			"time": 38,
+			"responseCode": {
+				"code": 202,
+				"name": "Accepted"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				38
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1740dd36-612b-4351-ba37-cdc357f32abd",
+			"name": "/v1.5/ondemand/selection/device/{deviceGuid} [multi button]",
+			"url": "http://localhost:8502/v1.5/ondemand/selection/device/f7da845e-b9cf-4e24-b3f9-d93e00000000",
+			"time": 32214,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				32214
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "96160e2d-362e-4d2e-b5a6-805a147009b4",
+			"name": "/v1.5/ondemand/selection/device/{deviceGuid} [multi button text area]",
+			"url": "http://localhost:8502/v1.5/ondemand/selection/device/f7da845e-b9cf-4e24-b3f9-d93e00000000",
+			"time": 5759,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5759
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4ed4474b-e575-4fa5-a522-31363321ee0b",
+			"name": "/v1.5/ondemand/selection/device/{deviceGuid} [yes no text area]",
+			"url": "http://localhost:8502/v1.5/ondemand/selection/device/f7da845e-b9cf-4e24-b3f9-d93e00000000",
+			"time": 7317,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				7317
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "957bfe2e-1c83-44ab-aabd-4950470ea279",
+			"name": "/v1.5/ondemand/signature/device/{deviceGuid} [standard]",
+			"url": "http://localhost:8502/v1.5/ondemand/signature/device/f7da845e-b9cf-4e24-b3f9-d93e00000000",
+			"time": 32202,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				32202
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "31f8c679-e0e9-4870-a72f-936b78239f32",
+			"name": "/v1.5/ondemand/signature/device/{deviceGuid} [text area]",
+			"url": "http://localhost:8502/v1.5/ondemand/signature/device/f7da845e-b9cf-4e24-b3f9-d93e00000000",
+			"time": 26562,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				26562
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bfca5939-1cf8-41e3-8a0a-940d4c063d6f",
+			"name": "/v1.5/ondemand/message/device/{deviceGuid}",
+			"url": "http://localhost:8502/v1.5/ondemand/message/device/f7da845e-b9cf-4e24-b3f9-d93e00000000",
+			"time": 361,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				361
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "889d1658-d70e-4079-874b-491f95dc8e84",
+			"name": "/v1.5/ondemand/securitycode/device/{deviceGuid} [standard]",
+			"url": "http://localhost:8502/v1.5/ondemand/securitycode/device/f7da845e-b9cf-4e24-b3f9-d93e00000000",
+			"time": 3898,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3898
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "093bd65c-f5de-44b7-b148-e147e31f5d50",
+			"name": "/v1.5/card/info[encrypted card data]",
+			"url": "http://localhost:8502/v1.5/card/info",
+			"time": 68,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				68
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "61b1dda5-cd6f-4258-90cc-59fb42500b3f",
+			"name": "/v1.5/card/balance/device/{deviceGuid}",
+			"url": "http://localhost:8502/v1.5/card/balance/device/f7da845e-b9cf-4e24-b3f9-d93e00000000",
+			"time": 307,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				307
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5edb60e6-4fda-4e11-bfe7-bb5785008f69",
+			"name": "/v1.5/card/balance/token/{token}",
+			"url": "http://localhost:8502/v1.5/card/balance/token/null",
+			"time": 1163,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1163
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c76f7f3f-fe20-40b7-a25e-19a24791483b",
+			"name": "/v1.5/card/balance [encrypted card data]",
+			"url": "http://localhost:8502/v1.5/card/balance",
+			"time": 557,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				557
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4cf8a098-90fa-4ee0-a859-17d7887ce343",
+			"name": "/v1.5/token/create/device/{deviceGuid}",
+			"url": "http://localhost:8502/v1.5/token/create/device/f7da845e-b9cf-4e24-b3f9-d93e00000000",
+			"time": 264,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				264
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 132161,
+	"collection": {
+		"requests": [
+			{
+				"id": "c7f6bb8e-897d-41d1-ba04-6e60cbfdb2b6",
+				"method": "VIEW"
+			},
+			{
+				"id": "82146875-13c5-4c0b-8534-b30c2272c600",
+				"method": "GET"
+			},
+			{
+				"id": "6b2e1933-9f01-4c2f-b7ad-c8518f8b0336",
+				"method": "GET"
+			},
+			{
+				"id": "e03287eb-fad0-4152-a794-a3d6ec111ba7",
+				"method": "GET"
+			},
+			{
+				"id": "3d92f716-deab-460b-b829-8735975631ff",
+				"method": "GET"
+			},
+			{
+				"id": "38fc1c50-9cd3-43a6-be6e-c63a853bf192",
+				"method": "POST"
+			},
+			{
+				"id": "ba824d8b-bd3d-42d7-a08b-7028aa5cd711",
+				"method": "POST"
+			},
+			{
+				"id": "de1d5b21-e93f-4caf-bdb6-b00751943869",
+				"method": "POST"
+			},
+			{
+				"id": "956463a5-500d-4313-ba05-ebaf6e928f97",
+				"method": "POST"
+			},
+			{
+				"id": "dd4c6f4c-82c0-466d-b500-7f0c4074e252",
+				"method": "POST"
+			},
+			{
+				"id": "b839db4c-3420-4fd2-ba9e-6a7e6e5d4a5b",
+				"method": "POST"
+			},
+			{
+				"id": "a8dd2f9b-09b6-486d-b5e5-ff8f8a54db53",
+				"method": "GET"
+			},
+			{
+				"id": "66364882-694c-4b78-9335-0d968f8fe956",
+				"method": "POST"
+			},
+			{
+				"id": "de48b82d-17b8-48f0-9f35-b8ca68e09513",
+				"method": "POST"
+			},
+			{
+				"id": "91fe91cd-5842-4861-b936-0cb22ea1cdc6",
+				"method": "POST"
+			},
+			{
+				"id": "5ee65003-ad36-4252-88db-8707bcae2c8a",
+				"method": "POST"
+			},
+			{
+				"id": "bf163da2-5892-4a55-9096-475afe8ae3fc",
+				"method": "GET"
+			},
+			{
+				"id": "11267762-a839-4ee9-a658-a5a4a895aed5",
+				"method": "POST"
+			},
+			{
+				"id": "bc00a036-986a-46e0-93f8-569fe755d0ab",
+				"method": "POST"
+			},
+			{
+				"id": "e9179f00-5674-40fa-9cfd-af0089b73dd5",
+				"method": "GET"
+			},
+			{
+				"id": "1740dd36-612b-4351-ba37-cdc357f32abd",
+				"method": "POST"
+			},
+			{
+				"id": "96160e2d-362e-4d2e-b5a6-805a147009b4",
+				"method": "POST"
+			},
+			{
+				"id": "4ed4474b-e575-4fa5-a522-31363321ee0b",
+				"method": "POST"
+			},
+			{
+				"id": "957bfe2e-1c83-44ab-aabd-4950470ea279",
+				"method": "POST"
+			},
+			{
+				"id": "31f8c679-e0e9-4870-a72f-936b78239f32",
+				"method": "POST"
+			},
+			{
+				"id": "bfca5939-1cf8-41e3-8a0a-940d4c063d6f",
+				"method": "POST"
+			},
+			{
+				"id": "889d1658-d70e-4079-874b-491f95dc8e84",
+				"method": "POST"
+			},
+			{
+				"id": "093bd65c-f5de-44b7-b148-e147e31f5d50",
+				"method": "POST"
+			},
+			{
+				"id": "61b1dda5-cd6f-4258-90cc-59fb42500b3f",
+				"method": "POST"
+			},
+			{
+				"id": "5edb60e6-4fda-4e11-bfe7-bb5785008f69",
+				"method": "POST"
+			},
+			{
+				"id": "c76f7f3f-fe20-40b7-a25e-19a24791483b",
+				"method": "POST"
+			},
+			{
+				"id": "4cf8a098-90fa-4ee0-a859-17d7887ce343",
+				"method": "POST"
+			}
+		]
+	}
+}

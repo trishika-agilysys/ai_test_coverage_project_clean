@@ -1,0 +1,4 @@
+models/
+venv311/
+src/models/__pycache__/
+bfg.jar 
